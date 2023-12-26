@@ -1,0 +1,13 @@
+It will be solved with the method of take/not take an element. We will pass the index, the data structure to carry the elements and the size of the array to the function.
+PSEUDOCODE:
+fun(index,dataStructure, n){
+    if(index>=n){
+        print(dataStructure)
+        return;
+    }
+    ds.add(arr[index]);
+    fun(index+1, dataStructure, n)
+    ds.remove(arr[index])
+    fun(index+1, dataStructure, n)   
+}
+
