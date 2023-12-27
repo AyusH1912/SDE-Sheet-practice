@@ -1,5 +1,8 @@
 //This code is leetcode combination sum problem solution solved using RECURSION.
 //Problem identification: we have to make a combination/choice using take or not take.
+//Problem link: https://leetcode.com/problems/combination-sum/
+//Explanation: https://takeuforward.org/data-structure/combination-sum-1/
+//Leetcode Medium Problem
 
 class combinationSum {
     private void findCombinations(int ind, int arr[], int target, List<List<Integer>> ans, List<Integer> ds) {
