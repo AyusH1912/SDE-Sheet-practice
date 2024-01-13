@@ -3,7 +3,7 @@
 
 class Solution {
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
-        // Using an extra arraylist to store and store and then sort and put into a new
+        // Using an extra arraylist to store and then sort and put into a new
         // linkedlist and return
         // List<Integer> a = new ArrayList<>();
         // while(list1 != null){
