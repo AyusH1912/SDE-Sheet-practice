@@ -1,6 +1,6 @@
 // Problem Link: https://leetcode.com/problems/balanced-binary-tree/
 // Explanation: https://takeuforward.org/data-structure/check-if-the-binary-tree-is-balanced-binary-tree/
-// Recurrence relation to use is: 1+max(left.rootheight, right.rootheight)
+// Recurrence relation to use is: 1+max(left.rootheight, right.rootheight), same as maximum height of a binary tree.
 // balanced formula: height(left root) - height(right root){of a binary tree} <= 1 then it is balanced otherwise it is not
 
 class Solution {
